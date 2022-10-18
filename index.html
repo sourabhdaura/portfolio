@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourabh Daura Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c6e1736c28.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="hero">
+        <nav>
+            <h2 class="logo">Portfo<span>lio</span></h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#contactMe">Contact</a></li>
+
+            </ul>
+
+        </nav>
+        </div>
+    </header>
+
+    <!-- Introduction -->
+
+        <div class="content" id="home">
+            <h4>Hello, I'm</h4>
+            <h1>Sourabh <span>Daura</span></h1>
+            <h3>Software Engineer</h3>
+        </div>
+
+       <section class="about" id="aboutMe">
+        <div class="main">
+            <img src="images/img.JPG">
+            <div class="about-text">
+                <h2> About Me</h2>
+                <h5>Developer <span> & Designer</span></h5>
+                <p>Innovative, task-driven professional with 2+ years of experience in web design and development across diverse industries. Skilled in responsive design, user interface, testing, debugging technical integration, client technical support and deploying assets.</p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> <span>HTML5</span></li>
+                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> <span>CSS</span></li>
+                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> <span>JavaScript</span></li>
+                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> <span>jQuery</span></li>
+                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> <span>Bootstrap</span></li>
+                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> <span>PHP</span></li>
+                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> <span>Laravel</span></li>
+                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> <span>MySql</span></li>
+                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> <span>GIT</span></li>
+                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> <span>Docker</span></li>
+                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> <span>Responsive Design</span></li>
+                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> <span>Technical skills</span></li>
+                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> <span>Communication skills</span></li>
+                    <li><i class="fa fa-dot-circle-o" aria-hidden="true"></i> <span>Problem solving skills</span></li>
+                 </ul>
+
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2019-2019</span><br>Software Engineer Intern at <span>ESCI</span></li>
+                    <li><span>2020-Till Now</span><br>Software Engineer at <span>Argus System</span></li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2020</span><br>Computer and Science Engineering from GJUS&T University, India.</li>
+                </ul>
+            </div>
+            <div class="resume">
+                <a href="assets/SOURABH_DAURA_CV.docx" download="SOURABH_DAURA_CV_Resume" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">Downlaod CV <i class="fa fa-download" aria-hidden="true"></i></a>
+
+            </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">Academic Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+
+            <a href="portfolio-item.html" class="portfolio__item" id="img">
+                <img src="images/carRace01.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href="eCommerce.html" class="portfolio__item" id="img1">
+                <img src="images/Online_Shopping02.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a href="activity_tracker.html" class="portfolio__item" id="img2">
+                <img src="images/activity_tracker.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 04 -->
+            <a href="library_management.html" class="portfolio__item" id="img3">
+                <img src="images/library.jpg" alt="" class="portfolio__img">
+            </a>
+
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer" id="contactMe">
+        <!-- replace with your own email address -->
+        <a href="mailto:sourabh.daura@gmail.com" class="footer__link">sourabh.daura@gmail.com</a>
+        <ul class="social-list">
+
+            <li class="social-list__item">
+                <a class="social-list__link"
+                    href="https://www.linkedin.com/in/sourabh-daura/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/sourabhdaura">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+        <p style="text-align: center;">Copyright © <span id="copyrightYear">2022</span> All Rights Reserved Sourabh  Daura.</p>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
